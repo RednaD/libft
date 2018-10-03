@@ -6,7 +6,7 @@
 #    By: arusso <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/11/13 13:46:59 by arusso            #+#    #+#              #
-#    Updated: 2018/09/29 13:25:30 by arusso           ###   ########.fr        #
+#    Updated: 2018/10/03 15:29:01 by arusso           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -84,7 +84,8 @@ SRC		= ft_memset.c\
 		get_next_line.c\
 		ft_splitoa.c\
 		ft_count_word.c\
-		ft_flotoa.c
+		ft_flotoa.c\
+		ft_is_between.c
 
 OBJ		=	$(SRC:%.c=%.o)
 

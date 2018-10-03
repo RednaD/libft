@@ -6,7 +6,7 @@
 /*   By: arusso <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/11/08 17:04:44 by arusso            #+#    #+#             */
-/*   Updated: 2018/09/29 13:23:37 by arusso           ###   ########.fr       */
+/*   Updated: 2018/10/03 15:28:18 by arusso           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,5 +96,6 @@ int				get_next_line(int fd, char **line);
 int				*ft_splitoa(char *str, char c);
 int				ft_count_word(const char *str, char c);
 char			*ft_flotoa(long double dbl);
+int				ft_between(int a, int b, int c);
 
 #endif
